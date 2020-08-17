@@ -1,0 +1,34 @@
+version: '3'
+services:
+    ganache:
+        image: 0xorg/ganache-cli
+        ports:
+            - '8545:8545'
+    backend:
+        image: 0xorg/launch-kit-backend:latest
+        environment:
+            HTTP_PORT: '3000'
+            NETWORK_ID: '50'
+            CHAIN_ID: '1337'
+            WHITELIST_ALL_TOKENS: 'true'
+            FEE_RECIPIENT: '0x0000000000000000000000000000000000000001'
+            MAKER_FEE_UNIT_AMOUNT: '0'
+            TAKER_FEE_UNIT_AMOUNT: '0'
+            MESH_ENDPOINT: 'ws://mesh:60557'
+        ports:
+            - '3000:3000'
+    mesh:
+        image: 0xorg/mesh:7.2.1-beta-0xv3
+        environment:
+            ETHEREUM_RPC_URL: 'https://mainnet.infura.io/v3/0d2399ad20ae4f65a6e3320c5d433d24'
+            ETHEREUM_CHAIN_ID: 1
+            VERBOSITY: 3
+            RPC_ADDR: 'mesh:60557'
+            # You can decrease the BLOCK_POLLING_INTERVAL for test networks to
+            # improve performance. See https://0x-org.gitbook.io/mesh/ for more
+            # Documentation about Mesh and its environment variables.
+            BLOCK_POLLING_INTERVAL: '5s'
+        ports:
+            - '60557:60557'
+            - '60558:60558'
+            - '60559:60559'

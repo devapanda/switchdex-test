@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toolbar Toolbar to match snapshot 1`] = `
+<div
+  className="sc-EHOje guXWSa"
+>
+  <div
+    className="sc-bZQynM dRxzcF"
+  >
+    <label>
+      Start Content
+    </label>
+  </div>
+  <div
+    className="sc-gzVnrw dzhSQZ"
+  />
+  <div
+    className="sc-htoDjs ciwOfe"
+  >
+    <label>
+      End Content
+    </label>
+  </div>
+</div>
+`;

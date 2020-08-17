@@ -1,0 +1,294 @@
+{
+    "general": {
+        "title": "VeriDex",
+        "icon": "assets/icons/vsf.svg",
+        "social": {
+            "telegram_url": "https://t.me/VeriSafe",
+            "twitter_url": "https://twitter.com/VeriSafeProject",
+            "facebook_url": "https://www.facebook.com/VeriSafe.io/",
+            "discord_url": "https://discord.gg/cGMJemv",
+            "reddit_url": "https://reddit.com/r/verisafe",
+            "bitcointalk_url": "https://bitcointalk.org/index.php?topic=5140352",
+            "statedapps_url": "https://www.stateofthedapps.com/dapps/veridex"
+        }
+    },
+    "tokens": [
+        {
+            "decimals": 18,
+            "symbol": "vsf",
+            "name": "VeriSafe",
+            "primaryColor": "#081e6e",
+            "icon": "assets/icons/vsf.svg",
+            "addresses": {
+                "1": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
+                "3": "0xba3a79d758f19efe588247388754b8e4d6edda81",
+                "42": "0xBA3a79D758f19eFe588247388754b8e4d6EddA81"
+            },
+            "id": "verisafe",
+            "c_id": "verisafe",
+            "displayDecimals": 0,
+            "description": "The transparent ecossystem that crypto needs!",
+            "website": "https://www.verisafe.io",
+            "isStableCoin": false
+        },
+        {
+            "symbol": "weth",
+            "name": "Wrapped Ether",
+            "primaryColor": "#3333ff",
+            "icon": "assets/icons/weth.svg",
+            "addresses": {
+                "1": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "3": "0xc778417e063141139fce010982780140aa0cd5ab",
+                "4": "0xc778417e063141139fce010982780140aa0cd5ab",
+                "42": "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
+                "50": "0x0b1ba0af832d7c05fd64161e0db78e85978e8082"
+            },
+            "decimals": 18,
+            "displayDecimals": 3,
+            "id": "ethereum",
+            "c_id": "ethereum",
+            "website": "https://weth.io",
+            "description": "wETH is 'wrapped ETH'",
+            "isStableCoin": false
+        },
+        {
+            "symbol": "zrx",
+            "name": "0x Protocol Token",
+            "primaryColor": "#333333",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+                "3": "0xff67881f8d12f372d91baae9752eb3631ff0ed00",
+                "4": "0x8080c7e4b81ecf23aa6f877cfbfd9b0c228c6ffa",
+                "5": "0xff67881f8d12f372d91baae9752eb3631ff0ed00",
+                "42": "0x2002d3812f58e35f0ea1ffbf80a75a38c32175fa",
+                "50": "0x871dd7c2b4b25e1aa18728e9d5f2af4c4e431f5c"
+            },
+            "decimals": 18,
+            "displayDecimals": 2,
+            "c_id": "0x",
+            "website": "https://0x.org",
+            "description": "0x is an open protocol that enables the peer-to-peer exchange of assets on the Ethereum blockchain.",
+            "isStableCoin": false
+        },
+        {
+            "decimals": 9,
+            "symbol": "dgx",
+            "name": "DigixDao",
+            "icon": "assets/icons/dgx.svg",
+            "primaryColor": "#E1AA3E",
+            "addresses": {
+                "1": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A",
+                "3": "0xc4895a5aafa2708d6bc1294e20ec839aad156b1d",
+                "4": "0xc40a46ca4bc8e6057ed571e39cf400f3f935e4d5",
+                "42": "0xA4f468c9c692eb6B4b8b06270dAe7A2CfeedcDe9",
+                "50": "0xcdb594a32b1cc3479d8746279712c39d18a07fc0"
+            },
+            "c_id": "digixdao",
+            "website": "https://digix.global/dgd/",
+            "isStableCoin": false
+        },
+        {
+            "decimals": 18,
+            "symbol": "dai",
+            "name": "Dai",
+            "icon": "assets/icons/dai.svg",
+            "primaryColor": "#DEA349",
+            "addresses": {
+                "1": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359",
+                "3": "0xf80a32a835f79d7787e8a8ee5721d0feafd78108",
+                "4": "0x6f2d6ff85efca691aad23d549771160a12f0a0fc",
+                "42": "0xc4375b7de8af5a38a93548eb8453a498222c4ff2",
+                "50": ""
+            },
+            "website": "https://makerdao.com/en/dai/",
+            "description": "Dai is an asset-backed, hard currency for the 21st century.",
+            "c_id": "dai",
+            "isStableCoin": true
+        },
+        {
+            "decimals": 8,
+            "symbol": "wbtc",
+            "name": "Wrapped BTC",
+            "primaryColor": "#282138",
+            "icon": "assets/icons/wbtc.svg",
+            "addresses": {
+                "1": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                "3": "0xa0e54ab6aa5f0bf1d62ec3526436f3c05b3348a0"
+            },
+            "displayDecimals": 8,
+            "unified_cryptoasset_id": 3717,
+            "website": "https://www.wbtc.network/",
+            "c_id": "wrapped-bitcoin",
+            "description": "Wrapped Bitcoin delivers the power of Bitcoin with the flexibility of an ERC20 token.",
+            "id": "wrapped-bitcoin"
+        },
+        {
+            "decimals": 6,
+            "displayDecimals": 2,
+            "symbol": "usdc",
+            "name": "USDC",
+            "icon": "assets/icons/usdc.svg",
+            "primaryColor": "#9fc2e7",
+            "unified_cryptoasset_id": 3408,
+            "addresses": {
+                "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "3": "0x851def71f0e6a903375c1e536bd9ff1684bad802"
+            },
+            "id": "usd-coin",
+            "website": "https://www.centre.io/",
+            "description": "Connecting every person, every merchant, every financial service, every currency. Everywhere.",
+            "c_id": "usd-coin"
+        },
+        {
+            "decimals": 18,
+            "displayDecimals": 2,
+            "symbol": "bat",
+            "name": "Basic Attention Token",
+            "icon": "assets/icons/bat.svg",
+            "unified_cryptoasset_id": 1697,
+            "primaryColor": "#9e1f63",
+            "addresses": {
+                "1": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+                "3": "0x85b24b3517e3ac7bf72a14516160541a60cff19d"
+            },
+            "id": "basic-attention-token",
+            "website": "https://basicattentiontoken.org/",
+            "description": "INTRODUCING BLOCKCHAIN-BASED DIGITAL ADVERTISING",
+            "c_id": "basic-attention-token"
+        },
+        {
+            "decimals": 18,
+            "symbol": "link",
+            "name": "ChainLink",
+            "primaryColor": "#0a258a",
+            "icon": "assets/icons/link.svg",
+            "unified_cryptoasset_id": 1975,
+            "addresses": {
+                "1": "0x514910771af9ca656af840dff83e8264ecf986ca",
+                "3": "0x1a906e71ff9e28d8e01460639eb8cf0a6f0e2486"
+            },
+            "displayDecimals": 0,
+            "website": "https://chain.link/",
+            "c_id": "chainlink",
+            "description": "Your smart contracts connected to real world data, events and payments.",
+            "id": "chainlink"
+        },
+        {
+            "decimals": 6,
+            "symbol": "usdt",
+            "name": "Tether",
+            "primaryColor": "#14a279",
+            "icon": "assets/icons/usdt.svg",
+            "unified_cryptoasset_id": 825,
+            "addresses": {
+                "1": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                "3": "0xb404c51bbc10dcbe948077f18a4b8e553d160084"
+            },
+            "displayDecimals": 3,
+            "website": "https://tether.to/",
+            "c_id": "tether",
+            "description": "Digital money for a digital age",
+            "id": "tether"
+        },
+        {
+            "decimals": 18,
+            "symbol": "rep",
+            "name": "Augur",
+            "primaryColor": "#603994",
+            "icon": "assets/icons/rep.svg",
+            "unified_cryptoasset_id": 1104,
+            "addresses": {
+                "1": "0x1985365e9f78359a9B6AD760e32412f4a445E862",
+                "3": "0xbeb13523503d35f9b3708ca577cdccadbfb236bd"
+            },
+            "displayDecimals": 3,
+            "website": "https://www.augur.net/",
+            "c_id": "augur",
+            "description": "Markets for Anyone Anywhere on Anything.",
+            "id": "augur"
+        },
+        {
+            "decimals": 18,
+            "symbol": "knc",
+            "name": "KyberNetwork",
+            "primaryColor": "#ffffff",
+            "unified_cryptoasset_id": 1982,
+            "icon": "assets/icons/knc.svg",
+            "addresses": {
+                "1": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
+                "3": "0xce4aa1de3091033ba74fa2ad951f6adc5e5cf361"
+            },
+            "displayDecimals": 0,
+            "website": "https://kyber.network/",
+            "c_id": "kyber-network",
+            "description": "Kyber is an on-chain liquidity protocol that aggregates liquidity from a wide range of reserves,<br /> powering instant and secure token exchange in any decentralized application.",
+            "id": "kyber-network"
+        },
+        {
+            "decimals": 18,
+            "symbol": "tusd",
+            "name": "TrueUSD",
+            "primaryColor": "#38294a",
+            "unified_cryptoasset_id": 2563,
+            "icon": "assets/icons/tusd.svg",
+            "addresses": {
+                "1": "0x0000000000085d4780B73119b644AE5ecd22b376",
+                "3": "0xa51ee1845c13cb03fca998304b00ecc407fc1f92"
+            },
+            "displayDecimals": 6,
+            "website": "https://www.trusttoken.com/trueusd",
+            "c_id": "true-usd",
+            "description": "The first regulated stablecoin fully backed by the US Dollar.",
+            "id": "true-usd"
+        }
+    ],
+    "pairs": [
+        {
+            "base": "vsf",
+            "quote": "weth",
+            "config": {
+                "basePrecision": 0,
+                "pricePrecision": 8,
+                "minAmount": 10000
+            }
+        },
+        {
+            "base": "zrx",
+            "quote": "weth",
+            "config": {
+                "basePrecision": 0,
+                "pricePrecision": 7,
+                "minAmount": 1
+            }
+        },
+        {
+            "base": "dgx",
+            "quote": "weth",
+            "config": {
+                "basePrecision": 0,
+                "pricePrecision": 7,
+                "minAmount": 1
+            }
+        },
+        {
+            "base": "zrx",
+            "quote": "vsf",
+            "config": {
+                "basePrecision": 0,
+                "pricePrecision": 7,
+                "minAmount": 10
+            }
+        }
+    ],
+    "marketFilters": [
+        {
+            "text": "ETH",
+            "value": "weth"
+        },
+        {
+            "text": "VSF",
+            "value": "vsf"
+        }
+    ]
+}
